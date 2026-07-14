@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table assignment</title>
+</head>
+
+<body>
+
+    <h1>HTML Table assignment</h1>
+
+    <hr>
+
+    <h2>BASIC TABLE</h2>
+
+    <table border="2">
+        <caption><strong>Time Zone</strong></caption>
+
+        <tr>
+            <td>Cairo</td>
+            <td>Berlin</td>
+        </tr>
+        <tr>
+            <td>GMT+3</td>
+            <td>GMT+2</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Table with header cells</h2>
+
+    <!-- Using <table border="2"> to add border thickness to make it visible -->
+    <!-- <strong> to make it bold -->
+    <!-- adding <img> tag inside <td> to add images in table cells -->
+
+    <table border="2">
+        <caption><strong>PC BUILD</strong></caption>
+
+        <tr>
+            <th>PART</th>
+            <th>PRODUCT</th>
+            <th>Picture</th>
+            <th>PRICE (EGP)</th>
+        </tr>
+        <tr>
+            <th>CPU</th>
+            <td>AMD Ryzen 5 5600X</td>
+            <td><img src="amd_ryzen_5_cpu.webp" alt="error" width="100"></td>
+            <td>7,000</td>
+        </tr>
+        <tr>
+            <th>Motherboard</th>
+            <td>B550 AORUS ELITE AX V2</td>
+            <td><img src="71F98oJ0QNL._AC_UF894,1000_QL80_.jpg" alt="error" width="100"></td>
+            <td>8,200</td>
+        </tr>
+        <tr>
+            <th>RAM</th>
+            <td>Kingston FURY Beast 32GB DDR4</td>
+            <td><img src="images.jpg" alt="error" width="100"></td>
+            <td>12,500</td>
+        </tr>
+        <tr>
+            <th>GPU</th>
+            <td>GIGABYTE GeForce RTX 5070 12gb</td>
+            <td><img src="download.webp" alt="error" width="100"></td>
+            <td>36,000</td>
+        </tr>
+        <tr>
+            <th>STORAGE</th>
+            <td>SAMSUNG 9100 Pro 2TB M.2</td>
+            <td><img src="images (1).jpg" alt="error" width="100"></td>
+            <td>20,000</td>
+        </tr>
+        <tr>
+            <th>CASE</th>
+            <td>AEROCOOL P500C Black</td>
+            <td><img src="images (2).jpg" alt="error" width="100"></td>
+            <td>5,500</td>
+        </tr>
+        <tr>
+            <th>COOLER</th>
+            <td>XPG LEVANTE II 360</td>
+            <td><img src="images (3).jpg" alt="error" width="100"></td>
+            <td>5,000</td>
+        </tr>
+        <tr>
+            <th>Power Supply</th>
+            <td>XIGMATEK THOR T850M 850W 80+ bronze</td>
+            <td><img src="images (4).jpg" alt="error" width="100"></td>
+            <td>3,500</td>
+        </tr>
+        <tr>
+            <th colspan="3">TOTAL PRICE</th>
+            <td>97,700</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>FIFA WORLD CUP 2026 GROUP STAGE SCHEDULE</h2>
+
+    <!-- Using <table border="2"> to add border thickness to make it visible -->
+    <!-- <strong> to make it bold -->
+
+    <table border="2">
+        <caption><strong>GROUP G</strong></caption>
+
+        <tr>
+            <th>Team</th>
+            <th>MP</th>
+            <th>W</th>
+            <th>D</th>
+            <th>L</th>
+            <th>GF</th>
+            <th>GA</th>
+            <th>PTS</th>
+        </tr>
+        <tr>
+            <td>1. BELGIUM</td>
+            <td>3</td>
+            <td>1</td>
+            <td>2</td>
+            <td>0</td>
+            <td>6</td>
+            <td>2</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>2. EGYPT</td>
+            <td>3</td>
+            <td>1</td>
+            <td>2</td>
+            <td>0</td>
+            <td>5</td>
+            <td>3</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>3. IRAN</td>
+            <td>3</td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4. NEW ZEALAND</td>
+            <td>3</td>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+            <td>4</td>
+            <td>10</td>
+            <td>1</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <h2>Students Grades</h2>
+
+    <!-- using rowspan,colspan attribute to merge cells in the table -->
+
+    <table border="2">
+
+        <tr>
+            <th rowspan="2">Names</th>
+            <th colspan="5">Marks</th>
+        </tr>
+        <tr>
+            <td>ENGLISH</td>
+            <td>ARABIC</td>
+            <td>PHYSICS</td>
+            <td>ALGEBRA</td>
+            <td>CHEMISTRY</td>
+        </tr>
+        <tr>
+            <td>Amr Ayman</td>
+            <td>90</td>
+            <td>89</td>
+            <td>87</td>
+            <td>77</td>
+            <td>79</td>
+        </tr>
+        <tr>
+            <td>Mostafa Mohammed</td>
+            <td>92</td>
+            <td>85</td>
+            <td>83</td>
+            <td>74</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>Tony Ashraf</td>
+            <td>87</td>
+            <td>77</td>
+            <td>86</td>
+            <td>88</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Baher Adel</td>
+            <td>88</td>
+            <td>84</td>
+            <td>81</td>
+            <td>82</td>
+            <td>86</td>
+        </tr>
+
+
+
+    </table>
+
+</body>
+
+</html>
